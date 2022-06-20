@@ -25,14 +25,14 @@ nav > .church_name {
     text-transform: uppercase;
 }
 
-/*section > button {*/
-/*    font-size: 5vh;*/
-/*    border-bottom: 5px solid;*/
-/*    border-radius: 20px;*/
-/*    min-width: 20vw;*/
-/*    padding: 12px;*/
-/*    border-bottom-color: #930a36;*/
-/*}*/
+section > button {
+    font-size: 5vw;
+    border-bottom: 5px solid;
+    border-radius: 20px;
+    min-width: 20vw;
+    padding: 12px;
+    border-bottom-color: #930a36;
+}
 
 p {
     font-size: 5vw;
