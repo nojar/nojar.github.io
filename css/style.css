@@ -1,6 +1,6 @@
 * {
     list-style: none;
-    background-color: #eae5e7;
+    background-color: #e5f5ff;
 }
 
 body {
@@ -21,13 +21,20 @@ nav {
 }
 
 nav > .church_name {
+    font-size: 8vw;
     font-weight: bolder;
     text-transform: uppercase;
 }
 
 section > button {
-    border-bottom: 1px solid;
+    font-size: 5vw;
+    border-bottom: 5px solid;
     border-radius: 20px;
-    min-width: 10vw;
-    padding: 10px;
+    min-width: 20vw;
+    padding: 12px;
+    border-bottom-color: #930a36;
+}
+
+p {
+    font-size: 5vw;
 }
