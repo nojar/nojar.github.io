@@ -21,7 +21,7 @@ nav {
 }
 
 nav > .church_name {
-    font-size: 10vw;
+    font-size: 20vw;
     font-weight: bolder;
     text-transform: uppercase;
 }
