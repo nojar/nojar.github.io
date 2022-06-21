@@ -4,29 +4,38 @@
 }
 
 body {
-    padding: 1vh 5vh;
-    min-height: 60vh;
+    padding: 1vh 5vh 5vh 5vh;
+    min-height: 90vh;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
 }
 
-nav {
+.nav_container {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    /*flex-direction: column;*/
+    justify-content: center;
+}
+
 nav > .church_name {
-    font-size: 5vw;
+    /*font-size: 5vw;*/
+    font-size: 1.9rem;
     font-weight: bolder;
     text-transform: uppercase;
 }
 
-section > button {
-    font-size: 5vw;
+
+#register {
+    font-size: 1.5rem;
     border-bottom: 5px solid;
     border-radius: 20px;
     min-width: 20vw;
@@ -34,6 +43,47 @@ section > button {
     border-bottom-color: #930a36;
 }
 
-p {
-    font-size: 5vw;
+#register :hover {
+    text-transform: uppercase;
+    padding: 1000px;
 }
+
+p {
+    font-size: 1.5rem;
+}
+
+/*form {*/
+/*    background-color: greenyellow;*/
+/*    width: 60vw;*/
+/*}*/
+
+/*form > .field {*/
+/*    display: none;*/
+/*}*/
+
+/*form > .field > input {*/
+/*    border-radius: 10px;*/
+/*    width: 50vw;*/
+/*    height: 5vh*/
+/*}*/
+
+/*form {*/
+/*    box-sizing: border-box;*/
+/*    max-width: 1000px;*/
+/*    position: relative;*/
+/*    margin: auto;*/
+/*}*/
+
+/*.fade {*/
+/*    animation-name: fade;*/
+/*    animation-duration: 1.5s;*/
+/*}*/
+
+/*@keyframes fade {*/
+/*    from {*/
+/*        opacity: .4*/
+/*    }*/
+/*    to {*/
+/*        opacity: 1*/
+/*    }*/
+/*}*/
